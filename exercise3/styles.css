@@ -1,0 +1,45 @@
+div.aboutMe
+{
+  font-size: 24px;
+}
+
+div.aboutMeOdd
+{
+  color:blue;
+}
+
+div.aboutMeEven
+{
+  color:#e8000d;
+}
+
+div.video
+{
+  font-family: helvetica;
+  font-size: 24px;
+  color:white;
+}
+
+div.links
+{
+  font-family: helvetica;
+  font-size: 20px;
+  color:white;
+}
+
+div.lower
+{
+    background-image: url(resources/required_background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a:hover
+{
+  color:#e8000d;
+}
+
+body
+{
+  background-color: #eee;
+}

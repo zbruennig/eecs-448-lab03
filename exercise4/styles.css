@@ -1,0 +1,21 @@
+input.rgbInput
+{
+  width:100px
+}
+
+div.border
+{
+  width:300px;
+  float:left
+}
+
+div.background
+{
+  width:300px;
+  float:left
+}
+
+div.paragraph
+{
+  border:0px solid
+}

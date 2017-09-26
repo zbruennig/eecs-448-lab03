@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <head>
+    <title>CSS Manipulation</title>
+    <script type="text/javascript" src="paragraph.js"></script>
+    <link href = "styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="paragraph" class="paragraph">
+      In January 15, 1892, James Naismith published his rules for the game of "Basket Ball" that he invented:
+      The original game played under these rules was quite different from the one played today as there was no
+        dribbling, dunking, three-pointers, or shot clock, and goal tending was legal.
+      The ball may be thrown in any direction with one or both hands.
+      The ball may be batted in any direction with one or both hands.
+      A player cannot run with the ball. The player must throw it from the spot on which he catches it,
+        allowance to be made for a man who catches the ball when running at a good speed if he tries to stop.
+      The ball must be held in or between the hands; the arms or body must not be used for holding it.
+      No shouldering, holding, striking, pushing, or tripping in any way of an opponent.
+        The first infringement of this rule by any person shall count as a foul; the second shall disqualify him until the next basket is made or,
+        if there was evident intent to injure the person, for the whole of the game. No substitution shall be allowed.
+      A foul is striking at the ball with the fist, violation of rules three and four and such described in rule five.
+      If either side makes three consecutive fouls, it shall count a goal for the opponents
+        (consecutive means without the opponents in the mean time making a foul).
+      A goal shall be made when the ball is thrown or batted from the grounds into the basket and stays there (without falling),
+        providing those defending the goal do not touch or disturb the goal. If the ball rests on the edges, and the opponent moves the basket, it shall count as a goal.
+      When the ball goes out of bounds, it shall be thrown into the field of play and played by the first person touching it.
+        In case of dispute the umpire shall throw it straight into the field. The thrower-in is allowed five seconds.
+          If he holds it longer, it shall go to the opponent. If any side persists in delaying the game, the umpire shall call a foul on that side.
+      The umpire shall be the judge of the men and shall note the fouls and notify the referee when three consecutive fouls have been made.
+        He shall have power to disqualify people according to Rule 5.
+      The referee shall be judge of the ball and shall decide when the ball is in play, in bounds, to which side it belongs,
+        and shall keep the time. He shall decide when a goal has been made and keep account of the baskets, with any other duties that are usually performed by a scorekeeper.
+      The time shall be two fifteen-minute halves, with five minutes rest between.
+      The side making the most points in that time is declared the winner.
+      The original rules of basketball are on display to the public at the University of Kansas.
+    </div>
+    <hr>
+    Input 0-255 for the below rgb values to change the appearance of the above paragraph. <br>
+    <div id="border" class="border" align="left">
+      Change border values:<br>
+      <ul>
+        <li>
+          Red: <input id="borderRed" class="rgbInput" type="text">
+        </li>
+        <li>
+          Green: <input id="borderGreen" class="rgbInput" type="text">
+        </li>
+        <li>
+          Blue: <input id="borderBlue" class="rgbInput" type="text">
+        </li>
+        <li>
+          Width: <input id="borderWidth" class="rgbInput" type="text">
+        </li>
+      </ul>
+    </div>
+    <div id="background" class="background" align="left">
+      Change background values:<br>
+      <ul>
+        <li>
+          Red: <input id="backgroundRed" class="rgbInput" type="text">
+        </li>
+        <li>
+          Green: <input id="backgroundGreen" class="rgbInput" type="text">
+        </li>
+        <li>
+          Blue: <input id="backgroundBlue" class="rgbInput" type="text">
+        </li>
+        <button onclick="updateParagraph()">Change!</button>
+        </li>
+      </ul>
+    </div>
+</html>
